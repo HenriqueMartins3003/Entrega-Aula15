@@ -1,0 +1,91 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+br {
+  display: none;
+}
+#page-title {
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Apply styles to the entire table */
+#productsTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Style table header cells */
+#productsTable th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style table data cells */
+#productsTable td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color for better readability */
+#productsTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add hover effect to rows */
+#productsTable tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Style the thumbnail column (adjust as needed) */
+#productsTable td:nth-child(7) {
+  text-align: center;
+}
+
+/* Example: Style thumbnail images */
+#productsTable img {
+  max-width: 50px;
+  max-height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#productsTable button {
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+}
+#productsTable button:hover {
+  background-color: orange;
+}
