@@ -16,18 +16,21 @@ const updateProductTable = (productsData) => {
       <td>${product.price}</td>
       <td>${product.stock}</td>
       <td><img src= ${product.thumbmail} alt=${product.title}></td>
-      <td> <button onclick="handleDelete">X</button> </td>
-      
+      <td> <button onclick="handleDelete(${product.id})">X</button> </td>
     `;
     tableBody.appendChild(row);
   });
 };
 
 socket.on("Updated_Products", (data) => {
-  console.log("recebi e atualizei a pagina com as infos do json");
   try {
     updateProductTable(data);
   } catch (error) {
     console.log(error);
   }
 });
+
+const handleDelete = (id) => {
+  socket.emit("delete", { id });
+  window.location.reload();
+};

@@ -28,4 +28,6 @@ realTimeRouter.post("/", async (req, res) => {
   //res.status(200).json(produtos);
 });
 
+// realTimeRouter.delete("/:id", async (req, res) => {});
+
 export default realTimeRouter;
