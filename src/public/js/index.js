@@ -1,4 +1,3 @@
-console.log("Aqui");
 const socket = io();
 
 const updateProductTable = (productsData) => {
@@ -9,7 +8,6 @@ const updateProductTable = (productsData) => {
   productsData.forEach((product) => {
     const row = document.createElement("tr");
     row.innerHTML = `
-    <td>${product.id}</td>
       <td>${product.title}</td>
       <td>${product.description}</td>
       <td>${product.code}</td>
@@ -30,7 +28,8 @@ socket.on("Updated_Products", (data) => {
   }
 });
 
-const handleDelete = (id) => {
-  socket.emit("delete", { id });
+const handleDelete = (code) => {
+  console.log("oiiii");
+  socket.emit("delete", { code });
   window.location.reload();
 };

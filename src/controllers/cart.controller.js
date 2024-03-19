@@ -1,4 +1,4 @@
-import ManagerCart from "../models/ManagerCarts.js";
+import ManagerCart from "../DB/FIleSystem/models/ManagerCarts.js";
 const cartManager = new ManagerCart();
 
 export const createCart = async (req, res) => {

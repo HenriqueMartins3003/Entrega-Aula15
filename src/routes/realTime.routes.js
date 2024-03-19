@@ -2,7 +2,7 @@ import express from "express";
 
 const realTimeRouter = express.Router();
 
-import ProductManager from "../models/ManagerProducts.js";
+import ProductManager from "../DB/FIleSystem/models/ManagerProducts.js";
 const productManager = new ProductManager();
 
 realTimeRouter.get("/", async (req, res) => {

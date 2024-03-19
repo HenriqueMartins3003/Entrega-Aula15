@@ -1,1 +1,18 @@
-[{"id":3,"code":"P:66","description":"relogio 2","price":102,"stock":12,"title":"Apple watch","thumbmail":"https://www.google.com/search?sca_esv=601184441&sxsrf=ACQVn08L64aP2klg8XLP3ySRoLrQ8N-bXQ:1706129684612&q=rolex&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiSuqqu9PaDAxUMqZUCHdbHDXcQ0pQJegQIGRAB&biw=1280&bih=679&dpr=2#imgrc=FbXLdB8m5Dck0M"},{"id":4,"code":"P:57","description":"relogio 3","price":103,"stock":13,"title":"Apple watch","thumbmail":"https://www.google.com/search?sca_esv=601184441&sxsrf=ACQVn08L64aP2klg8XLP3ySRoLrQ8N-bXQ:1706129684612&q=rolex&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiSuqqu9PaDAxUMqZUCHdbHDXcQ0pQJegQIGRAB&biw=1280&bih=679&dpr=2#imgrc=FbXLdB8m5Dck0M"},{"id":5,"code":"P:24","description":"relogio 4","price":104,"stock":14,"title":"Apple watch","thumbmail":"https://www.google.com/search?sca_esv=601184441&sxsrf=ACQVn08L64aP2klg8XLP3ySRoLrQ8N-bXQ:1706129684612&q=rolex&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiSuqqu9PaDAxUMqZUCHdbHDXcQ0pQJegQIGRAB&biw=1280&bih=679&dpr=2#imgrc=FbXLdB8m5Dck0M"}]
+[
+  {
+    "title": "Apple watch",
+    "description": "relogio apple ",
+    "price": "1200",
+    "code": "p2",
+    "stock": "30",
+    "id": 1
+  },
+  {
+    "title": "iphone 15",
+    "description": "celular apple ",
+    "price": "5500",
+    "code": "p3",
+    "stock": "2",
+    "id": 2
+  }
+]
