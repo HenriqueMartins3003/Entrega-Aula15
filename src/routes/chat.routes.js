@@ -1,8 +1,16 @@
 import express from "express";
+import chatService from "../services/chat.service.js";
 
-const chatRouter = express.Router();
+const router = express.Router();
 
-chatRouter.get("/", (req, res) => {
-  res.render("chat");
+router.get("/", (req, res) => {
+  res.render("chat", {});
 });
-export default chatRouter;
+
+router.post("/", async (req, res) => {
+  const resp = req.body;
+
+  await chatService.createUser(resp);
+});
+
+export default router;

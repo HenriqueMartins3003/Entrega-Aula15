@@ -24,7 +24,7 @@ const updateProduct = async (
   id
 ) => {
   const updatedProduct = await productsModel.updateOne(
-    { _id: id },
+    { code: id },
     { title, description, price, code, stock }
   );
   return updatedProduct;
